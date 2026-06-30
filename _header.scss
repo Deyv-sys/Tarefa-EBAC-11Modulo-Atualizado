@@ -1,0 +1,12 @@
+@use 'variaveis';
+
+.header {
+    background: variaveis.$cor-principal;
+    color: variaveis.$cor-texto;
+    padding: 20px 0;
+    text-align: center;
+
+    &__title {
+        margin: 0;
+    }
+}

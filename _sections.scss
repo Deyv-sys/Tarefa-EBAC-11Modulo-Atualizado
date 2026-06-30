@@ -1,0 +1,14 @@
+@use 'variaveis';
+
+.section {
+    @include variaveis.section-base;
+    font-size: 14px + 2px; // Uso de operador +
+
+    &--bemvindo {
+        background: lighten(variaveis.$cor-principal, 40%);
+        padding: 30px (15px * 2); // Uso de operador *
+    }
+    &--sobre-nos {}
+    &--nossos-servicos {}
+    &--entre-contato {}
+}

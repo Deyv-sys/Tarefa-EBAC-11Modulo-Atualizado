@@ -1,0 +1,47 @@
+.header {
+  background: #003366;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.header__title {
+  margin: 0;
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background: #005599;
+  margin: 0;
+}
+.nav__item {
+  margin: 0 15px;
+}
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 30px 15px;
+  max-width: 900px;
+  margin: 40px auto;
+  border-radius: 8px;
+  background: #f7f7f7;
+  font-size: 16px;
+}
+.section--bemvindo {
+  background: #3399ff;
+  padding: 30px 30px;
+}
+.footer {
+  background: #003366;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */

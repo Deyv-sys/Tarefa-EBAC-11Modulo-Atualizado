@@ -1,0 +1,13 @@
+// _variaveis.scss
+$cor-principal: #003366;
+$cor-secundaria: #005599;
+$cor-texto: #fff;
+$max-width: 900px;
+
+@mixin section-base {
+  padding: 30px 15px;
+  max-width: $max-width;
+  margin: 40px auto;
+  border-radius: 8px;
+  background: #f7f7f7;
+}
